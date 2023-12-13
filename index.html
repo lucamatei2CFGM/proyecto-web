@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Arial', sans-serif;
+      color: #333;
+      margin: 0;
+    }
+
+    header {
+      background-color: #16a180;
+      padding: 35px;
+      text-align: center;
+      color: white;
+    }
+
+    nav {
+      float: left;
+      width: 20%;
+      text-align: center;
+      background-color: #333;
+    }
+
+    nav a {
+      display: block;
+      padding: 10px;
+      margin: 5px 0;
+      color: white;
+      text-decoration: none;
+    }
+
+    .main {
+      float: left;
+      width: 60%;
+      padding: 0 20px;
+    }
+
+    aside {
+      background-color: #4CAF50;
+      float: left;
+      width: 20%;
+      padding: 15px;
+      margin-top: 7px;
+      text-align: center;
+      color: white;
+    }
+
+    footer {
+      background-color: #333;
+      text-align: center;
+      padding: 10px;
+      margin-top: 7px;
+      color: white;
+    }
+
+    @media only screen and (max-width: 620px) {
+      nav, .main, aside {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>My Awesome Website</h1>
+  </header>
+
+  <div style="overflow:auto">
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Products</a>
+      <a href="#">Services</a>
+      <a href="#">Contact</a>
+    </nav>
+
+    <div class="main">
+      <h2>Welcome to My Awesome Website</h2>
+      <p>This is a fantastic place where you can explore amazing content and services.</p>
+    </div>
+
+    <aside>
+      <h2>About Us</h2>
+      <p>Learn more about our awesome team and mission.</p>
+    </aside>
+  </div>
+
+  <footer>
+    &copy; 2023 My Awesome Website
+  </footer>
+
+</body>
+</html>
+
